@@ -198,4 +198,8 @@ app.listen(process.env.PORT || 3000, () => {
   console.log("Server webhook đang chạy...");
 });
 
-client.login(TOKEN);
+client.once("clientReady", () => {
+  console.log("Bot online:", client.user.tag);
+});
+
+client.login(process.env.TOKEN);
