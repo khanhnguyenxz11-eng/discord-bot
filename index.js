@@ -12,7 +12,7 @@ const {
 const axios = require("axios");
 const fs = require("fs");
 
-const TOKEN = "MTQ3NTcwOTU0NDU4NzA3MTUwOQ.GF0xEo.35uKqCL1jRfTVgkd7I21J8CofbeGWSO4fWaIqM";
+const TOKEN = process.env.TOKEN;
 const ADMIN_ID = "1109115161266110534";
 const SEPAY_API_KEY = "RICIYKPFCHQTGAEMDMRXANHXX0UVL97GOB0EVCLPWGDFBDGZ6JF12LY2NRMQIMDQ";
 
