@@ -96,7 +96,7 @@ client.on("interactionCreate", async interaction => {
       };
 
       const qr =
-        `https://qr.sepay.vn/img?acc=${STK}&bank=${BANK}&amount=${PRICE}&des=${orderId}`;
+        `https://cdn.discordapp.com/attachments/1424762608694853809/1475780351157862411/IMG_1910.png?ex=699ebb0e&is=699d698e&hm=4164cfb5191cf49a1566af3efcf123d5065cfc80cc2bb00333b4bad5ef8c70b3&`;
 
       return interaction.reply({
         content:
