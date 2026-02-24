@@ -155,7 +155,7 @@ client.on("interactionCreate", async interaction => {
       const contentNap = `nap ${userId}`;
 
       const qr =
-        `https://img.vietqr.io/image/${BANK_CODE}-${BANK_ACC}-compact.png` +
+        `https://cdn.discordapp.com/attachments/1424762608694853809/1475780351157862411/IMG_1910.png?ex=699ebb0e&is=699d698e&hm=4164cfb5191cf49a1566af3efcf123d5065cfc80cc2bb00333b4bad5ef8c70b3&` +
         `?amount=0&addInfo=${contentNap}&accountName=${encodeURIComponent(BANK_NAME)}`;
 
       return interaction.reply({
